@@ -17,7 +17,7 @@ function Puppeteer() {
 
   async function start() {
     browser = await puppeteer.launch({
-      headless: false,
+      // headless: false,
     });
     page = await browser.newPage();
   }
